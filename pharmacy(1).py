@@ -38,8 +38,8 @@ class Login:
         username = self.username.get()
         password = self.password.get()
 
-        if (username == "joe" or username == "jef" or username == "jay") and password == "Abhi123":
-            # If the username and password are correct, open the Criminal Management System window
+        if (username == "leaf" or username == "branch" or username == "root") and password == "sql123":
+            # If the username and password are correct, open the Management System window
             self.root.destroy()
             root_cms=Tk()
             obj=PharmacyManagementSystem(root_cms)
